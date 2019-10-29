@@ -22,7 +22,7 @@
             </Label>
             <VBox layoutX="44.0" layoutY="74.0" prefHeight="393.0" prefWidth="288.0">
                <children>
-                  <RadioButton mnemonicParsing="true" text="Последовательное соединение" />
+                  <RadioButton mnemonicParsing="false" text="Последовательное соединение" onAction="#chooseScheme" />
                </children>
             </VBox>
             <ImageView fitHeight="428.0" fitWidth="200.0" layoutX="524.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true" />

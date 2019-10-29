@@ -5,6 +5,7 @@ import rocket.Main;
 
 public class SchemeChoose {
 
+
     @FXML
     private void previous(){
         Main.gotoHelloWindow();
@@ -13,5 +14,10 @@ public class SchemeChoose {
     @FXML
     private void next(){
         Main.gotoComputeMass();
+    }
+
+    @FXML
+    private void chooseScheme(){
+
     }
 }
